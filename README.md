@@ -1,2 +1,2 @@
-# Swift3-Examples
+# Swift 3 - Examples
 New Swift 3 Examples
