@@ -7,7 +7,7 @@ precedencegroup Multiplicative {
 }
 precedencegroup Exponentiative {
     associativity: left
-    higherThan: Multiplicative
+    higherThan: Additive
 }
 
 infix operator + : Additive
