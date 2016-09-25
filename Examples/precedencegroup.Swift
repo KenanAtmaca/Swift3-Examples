@@ -22,7 +22,20 @@ extension Int {
 
 1 + 1 + 2 ** 3  // 12
 
+precedencegroup Newpre {
+  associativity: left
+  higherThan: Multiplicative
+}
 
+infix operator *^: Newpre
+
+extension Float {
+    static func *^ (rhs:Float,lhs:Float) -> Float {
+    return (rhs * lhs) + rhs
+    }
+}
+
+2.0 * 5.0 *^ 1.0 // 20
 
 //---------------------------------
 
