@@ -1,3 +1,3 @@
 # Swift 3 - Examples
 
-[More Examples](http://blog.kenanatmaca.com)
+[More Examples](http://kenanatmaca.com)
